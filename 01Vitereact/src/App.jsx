@@ -1,10 +1,15 @@
 
+import Bipul from "./Bipul"
+
 
 function App() {
   
 
   return (
-   <h1>Hello React</h1>
+    <>
+      <Bipul/>
+      <h1>Hello React</h1>
+   </>
   )
 }
 

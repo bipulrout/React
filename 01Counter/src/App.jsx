@@ -14,9 +14,12 @@ function App() {
       return
     } else {
        // counter = counter + 1
-      setCounter(counter + 1)
-      console.log(counter)
-      console.log("Clicked", Math.random())
+      setCounter(previousCounter => previousCounter + 1)
+      setCounter(previousCounter => previousCounter + 1)
+      setCounter(previousCounter => previousCounter + 1)
+      setCounter(previousCounter => previousCounter + 1)
+      // console.log(counter)
+      // console.log("Clicked", Math.random())
     }
    
   }
